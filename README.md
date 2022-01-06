@@ -20,6 +20,13 @@ The easiest way to run the agent is by building and running the provided docker 
 
 ### Setup
 
+Before clone the carla autoware repository, we need to install [git-lfs](https://git-lfs.github.com/) first.
+
+```bash
+$ curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+$ sudo apt-get install git-lfs
+```
+
 Firstly clone the carla autoware repository, where additional [autoware contents](https://bitbucket.org/carla-simulator/autoware-contents.git) are included as a submodule:
 
 ```sh
